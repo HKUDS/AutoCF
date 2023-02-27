@@ -1,6 +1,6 @@
 # Automated Self-Supervised Learning for Recommendation
 
-This repository contains pyTorch implementation by <a href='github.com/akaxlh'>@akaxlh</a> for AutoCF model proposed in the following paper:
+This repository contains pyTorch implementation by <a href='https://github.com/akaxlh'>@akaxlh</a> for AutoCF model proposed in the following paper:
 
 ><a href='https://akaxlh.github.io/'>Lianghao Xia</a>, <a href='https://sites.google.com/view/chaoh'>Chao Huang</a>, Chunzhen Huang, Kangyi Lin, Tao Yu and Ben Kao. <i>Automated Self-Supervised Learning for Recommendation</i>. In WWW'23, Austin, US, April 30 - May 4, 2023.
 
