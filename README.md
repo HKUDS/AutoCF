@@ -36,7 +36,7 @@ The implementation for AutoCF is under the following development environment:
 * scipy=1.7.3
 
 ## Datasets
-We utilize three datasets for evaluating SimRec: <i>Yelp, Gowalla, </i>and <i>Amazon</i>. Note that compared to the data used in our previous works, in this work we utilize a more sparse version of the three datasets, to increase the difficulty of recommendation task. Our evaluation follows the common implicit feedback paradigm. The datasets are divided into training set, validation set and test set by 70:5:25.
+We utilize three datasets for evaluating AutoCF: <i>Yelp, Gowalla, </i>and <i>Amazon</i>. Note that compared to the data used in our previous works, in this work we utilize a more sparse version of the three datasets, to increase the difficulty of recommendation task. Our evaluation follows the common implicit feedback paradigm. The datasets are divided into training set, validation set and test set by 70:5:25.
 | Dataset | \# Users | \# Items | \# Interactions | Interaction Density |
 |:-------:|:--------:|:--------:|:---------------:|:-------:|
 |Yelp   |$42,712$|$26,822$|$182,357$|$1.6\times 10^{-4}$|
