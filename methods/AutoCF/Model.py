@@ -78,7 +78,7 @@ class LocalGraph(nn.Module):
 		return t.log(scores) + noise
 	
 	def forward(self, allOneAdj, embeds):
-		# allOneAdj should be without self-loop
+		# allOneAdj should be with self-loop
 		# embeds should be zero-order embeds
 		order = t.sparse.sum(allOneAdj, dim=-1).to_dense().view([-1, 1])
 		fstEmbeds = t.spmm(allOneAdj, embeds) - embeds
