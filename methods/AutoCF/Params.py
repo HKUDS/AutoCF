@@ -22,7 +22,7 @@ def ParseArgs():
 	parser.add_argument('--maskDepth', default=2, type=int, help='depth to mask')
 	parser.add_argument('--fixSteps', default=10, type=int, help='steps to train on the same sampled graph')
 	parser.add_argument('--keepRate', default=0.2, type=float, help='ratio of nodes to keep')
-	parser.add_argument('--gpu', default='2', type=str, help='indicates which gpu to use')
+	parser.add_argument('--gpu', default='0', type=str, help='indicates which gpu to use')
 	parser.add_argument('--eps', default=0.2, type=float, help='scaled weight as reward')
 	return parser.parse_args()
 args = ParseArgs()
